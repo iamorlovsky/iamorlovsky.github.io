@@ -4,7 +4,8 @@
   padding: 0;
 }
 body {
-  width: 1024px;
+  max-width: 1024px;
+  padding: 0 40px 0 40;
   margin-left: auto;
   margin-right: auto;
   font-family: "Inter UI", sans-serif;
@@ -13,6 +14,7 @@ body {
   font-stretch: normal;
   -webkit-font-smoothing: antialiased;
 }
+  
 h1 {
   font-size: 20px;
   line-height: 28px;
@@ -39,6 +41,7 @@ a {
 }
 a:hover {
   color: #000;
+  border-color: #000;
 }
 #header {
   padding: 56px 0 40px 0;
