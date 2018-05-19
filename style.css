@@ -27,7 +27,7 @@ h1 {
   color: #000000;
 }
 h2 {
-  font-weight: bold;
+  font-weight: heavy;
   line-height: 64px;
   letter-spacing: -0.8;
   font-size: 52px;
@@ -53,10 +53,18 @@ a:hover {
   padding: 56px 0 40px 0;
 }
 #about a {
+  -webkit-transition: color 0.23s ease-out, border-color 0.23s ease-out;
+  -moz-transition: color 0.23s ease-out, border-color 0.23s ease-out;
+  -o-transition: color 0.23s ease-out, border-color 0.23s ease-out;
+  transition: color 0.23s ease-out, border-color 0.23s ease-out;
   color: #000;
   border-bottom: 4px solid #000;
 }
 #about a:hover {
+  -webkit-transition: color 0.23s ease-out, border-color 0.23s ease-out;
+  -moz-transition: color 0.23s ease-out, border-color 0.23s ease-out;
+  -o-transition: color 0.23s ease-out, border-color 0.23s ease-out;
+  transition: color 0.23s ease-out, border-color 0.23s ease-out;
   color: #666;
   border-color: #666;
 }
